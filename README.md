@@ -1,4 +1,5 @@
-<p align=center><img src="https://github.com/amandewatnitrr/Octafest/blob/main/img/logos/logo-no-bg.png" width="200px"></p>
+<span><p align=center><img src="https://github.com/amandewatnitrr/Octafest/blob/main/img/logos/logo-no-bg.png" width="200px"></p>
+<p align=center><img src="https://github.com/amandewatnitrr/Octafest/blob/main/img/logos/logo-no-bg1.png" width="200px"></p></span>
 <h1 align=center>🔥 Octafest 🔥</h1>
 <p align=center><i>✨The Official Website of Octafest✨</i></p>
 
