@@ -1144,7 +1144,7 @@ table td {
 
 .page-heading {
   text-align: center;
-  color: white;
+  color: rgb(169, 213, 243);
   font-size: 96px;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
@@ -2081,7 +2081,7 @@ button:focus {
   position: absolute;
   z-index: -1;
   align-self: center;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 @media screen and (max-width: 32em) {
   .homebg-animation {
@@ -2158,4 +2158,11 @@ button:focus {
   background: #fff;
   border-color: #fff;
   text-decoration: none;
+}
+
+/* lottie-player*/
+
+lottie-player{
+  --lottie-player-seeker-track-color: #e48509;
+  --lottie-player-seeker-thumb-color: #ffcc00;
 }
