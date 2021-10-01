@@ -2102,6 +2102,14 @@ button:focus {
   border: 2px solid currentColor;
   padding: 16px 32px 16px 32px;
   border-radius: 99999px;
+  transition: all ease-in-out .15s;
+}
+
+.hc-btn-nofill:hover {
+  border-color: #61ec37;
+  background: #61ec37;
+  color: #000;
+  text-decoration: none;
 }
 
 /* countdown li */
@@ -2130,4 +2138,24 @@ button:focus {
   position: relative;
   width: auto;
   height: fit-content;
+}
+
+/* Buttons */
+
+.discord-outline-btn {
+  height: auto;
+  margin-left: 2%;
+  margin-top: 1%;
+  color: #ffffff;
+  border: 2px solid currentColor;
+  padding: 8px 16px 8px 16px;
+  border-radius: 99999px;
+  transition: all ease-in-out .15s;
+}
+
+.discord-outline-btn:hover {
+  color: #ab00f5;
+  background: #fff;
+  border-color: #fff;
+  text-decoration: none;
 }
