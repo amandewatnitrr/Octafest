@@ -1238,11 +1238,6 @@ site-header {
     0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 1300px) {
-  .site-title {
-    margin-left: 4em;
-  }
-}
 
 @media only screen and (max-width: 767px) {
   .page-heading {
@@ -1250,7 +1245,6 @@ site-header {
   }
   .site-title {
     width: 50%;
-    margin-left: 4em;
   }
 }
 
@@ -2399,7 +2393,7 @@ a {
   }
 }
 ul.open {
-  margin-top: 4px;
+  margin-top: 40px;
 }
 footer {
   padding-top:30px;
