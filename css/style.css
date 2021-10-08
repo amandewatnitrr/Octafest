@@ -26,7 +26,6 @@ body {
   font: 400 24px/1 "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, sans-serif;
   color: #1f2d3d;
-  font-family: "Roboto Mono", monospace;
   background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -516,20 +515,11 @@ table td {
   display: table;
 }
 
-@keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -400px 0;
-  }
-}
 .main-home-content {
-  background: gray
-    url("https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png")
-    repeat 0 0;
-  box-sizing: border-box;
-  animation: slide 20s linear infinite;
+  background-color: #121217;
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -676,7 +666,7 @@ table td {
 }
 
 .rodape_area {
-  background: #080808;
+  background: #f9fafc;
 }
 
 .rodape_top {
@@ -1074,9 +1064,12 @@ table td {
 
 /** Site header */
 
-site-header {
-  position: sticky;
+.site-header {
+  top: 0px;
+  position: fixed;
   width: 100%;
+  background: rgb(255, 255, 255);
+  z-index: 1000;
 }
 
 .site-title {
@@ -1091,13 +1084,13 @@ site-header {
   line-height: 54px;
 }
 
-/* .site-nav .nav-trigger {
+.site-nav .nav-trigger {
   display: none;
 }
 
 .site-nav .menu-icon {
   display: none;
-} */
+}
 
 .site-nav .page-link {
   color: white;
@@ -1238,6 +1231,11 @@ site-header {
     0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width: 1300px) {
+  .site-title {
+    margin-left: 4em;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .page-heading {
@@ -1245,6 +1243,7 @@ site-header {
   }
   .site-title {
     width: 50%;
+    margin-left: 4em;
   }
 }
 
@@ -1474,7 +1473,6 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
 }
 
 a.site-logo {
@@ -1609,7 +1607,7 @@ a.site-logo {
     background-color: rgba(255, 255, 255, 0.1);
   }
   .site-navbar ul.open {
-    max-height: 35vh;
+    max-height: 100vh;
     overflow: visible;
   }
   .intro-area h2 {
@@ -1621,10 +1619,9 @@ a.site-logo {
 
 /* mobile breakpoint end */
 
-a.red-link {
-  color: #00a2ff !important;
-  font-weight: bold !important;
-  font-size:larger;
+.red-link {
+  color: #7637ec !important;
+  font-weight: 500 !important;
 }
 
 .grow-header {
@@ -2382,20 +2379,4 @@ button:focus {
 lottie-player {
   --lottie-player-seeker-track-color: #e48509;
   --lottie-player-seeker-thumb-color: #ffcc00;
-}
-a {
-  text-decoration: none !important;
-}
-@media screen and(max-width:957px) {
-  .site-navbar {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-ul.open {
-  margin-top: 40px;
-}
-footer {
-  padding-top:30px;
-  background: black;
 }
