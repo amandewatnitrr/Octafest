@@ -1,8 +1,5 @@
 <span><p align=center><img src="https://github.com/amandewatnitrr/Octafest/blob/main/img/logos/logo-no-bg.png" width="200px"></p>
 <p align=center><img src="https://github.com/amandewatnitrr/Octafest/blob/main/img/logos/tpac.png" width="200px"></p></span>
-<a href="https://iter.hackclub.com/">
-<p align=center>Template by:<br><img src="https://github.com/hackclubiter/cdn/raw/main/logos/favicon/android-chrome-192x192.png" width="50px"></p></span>
-</a>
 <h1 align=center>🔥 Octafest 🔥</h1>
 <p align=center><i>✨The Official Website of Octafest✨</i></p>
 
